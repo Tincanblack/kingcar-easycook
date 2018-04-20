@@ -1,0 +1,1662 @@
+
+
+@charset "UTF-8";
+
+@import url(reset.css);
+
+body
+{
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+    width: 100%;
+    max-height: 100%;
+    background-image: url(../images/common/bg_body.png);
+    overflow-x: hidden;
+}
+
+a
+{
+    text-decoration: none;
+    outline-color: -moz-use-text-color;
+    outline-style: none;
+    outline-width: medium;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+header .navbar-brand
+{
+    padding: 5px 0 15px 15px;
+}
+
+header .navbar
+{
+    background-color: #f9cb14;
+    box-shadow: 3px 3px 12px 3px rgba(51, 51, 102, 0.5);
+}
+
+header .navbar .nav li a
+{
+    color: #ffffff !important;
+    font-size: 18px;
+    padding: 30px 20px 30px 50px;
+    text-shadow: 0px  0px  5px  #696969;
+}
+
+header .navbar .nav li a:hover
+{
+    background-color: #e2b917;
+    background-image: url(../images/common/icon_noodle.png);
+    background-repeat: no-repeat;
+    background-position: 13px;
+}
+
+main
+{
+    margin: 40px 0 0 0;
+    background-image: url(../images/common/bg_main.png);
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+main h1
+{
+    margin: 0 0 40px 0;
+    text-align: center;
+}
+
+.kvBox
+{
+    background-image: url(../images/kv_banner_PC.png);
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+    background-position: center top;
+    margin: 80px auto 0;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.kvBox .container
+{
+    height: 680px;
+    overflow: visible;
+}
+
+.kvBox .container .kv_noodle
+{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 35%;
+}
+
+.kvBox .container .kv_noodle2
+{
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+
+.kvBox .container .kv_sloagn
+{
+    position: absolute;
+    top: 40px;
+    z-index: 999;
+    animation-delay: 0.5s;
+    width: 35%;
+    right: 40px;
+}
+
+.kvBox .container .kv_sloagn img { -webkit-animation-delay: 1s; animation-delay: 1s; animation-delay: 1.5s; }
+
+.kvBox .container .kv_btn
+{
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.kvBox .container .kv_btn .img-responsive
+{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.kvBox .container .kv_btn:hover
+{
+    color: #ffff00;
+}
+
+.method
+{
+    padding: 160px 0 60px 0;
+}
+
+.method .detailBox
+{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 45px 30px 45px 30px;
+    height: 460px;
+    overflow: hidden;
+    box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+}
+
+.method .detailBox .scrollbars
+{
+    width: 100%;
+    height: 380px;
+}
+
+.method .detailBox .scrollbars ul
+{
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.method .detailBox .scrollbars ol
+{
+    list-style-type: decimal;
+    padding-left: 25px;
+}
+
+.method .detailBox .scrollbars p
+{
+    margin: 10px 0 10px 0;
+}
+
+.product
+{
+    padding: 160px 0 60px 0;
+}
+
+.product .detailBox.step
+{
+    margin: 80px 0 0;
+}
+
+.product .detailBox .tips
+{
+    text-align: center;
+    font-weight: bolder;
+    color: #000000;
+    font-size: 18px;
+}
+
+.product .detailBox .listBox
+{
+    display: table;
+    width: 33%;
+    float: left;
+    margin: 0 0 30px 0;
+}
+
+.product .detailBox .listBox .contentBox
+{
+    padding: 30px 30px;
+    font-size: 16px;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+    background-image: url(../images/common/bg_product_1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.product .detailBox .listBox .contentBox h5
+{
+    color: #c30d23;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0 0 15px 0;
+    min-height: 50px;
+}
+
+.product .detailBox .listBox .contentBox .title
+{
+    color: #777777;
+    font-weight: bolder;
+}
+
+.product .detailBox .list_rowBox
+{
+    display: table;
+    width: 99%;
+    margin: 30px 30px 0 0;
+}
+
+.product .detailBox .list_rowBox .contentBox
+{
+    padding: 30px 30px;
+    font-size: 16px;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+}
+
+.product .detailBox .list_rowBox .contentBox.bg2
+{
+    background-image: url(../images/common/bg_product_2.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.product .detailBox .list_rowBox .contentBox.bg3
+{
+    background-image: url(../images/common/bg_product_3.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.product .detailBox .list_rowBox .contentBox.bg4
+{
+    background-image: url(../images/common/bg_product_4.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.product .detailBox .list_rowBox .contentBox h5
+{
+    color: #c30d23;
+    font-size: 24px;
+    font-weight: bolder;
+    min-height: 50px;
+}
+
+.product .detailBox .list_rowBox .contentBox .title
+{
+    color: #777777;
+    font-weight: bolder;
+}
+
+.product .detailBox .stepBox
+{
+    display: table;
+    width: 33%;
+    float: left;
+    margin: 0 0 30px 0;
+}
+
+.product .detailBox .stepBox .contentBox
+{
+    padding: 30px 30px;
+    font-size: 16px;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+}
+
+.product .detailBox .stepBox .contentBox h5
+{
+    color: #c30d23;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.product .detailBox .stepBox .contentBox .title
+{
+    color: #777777;
+    font-weight: bolder;
+}
+
+.announce
+{
+    padding: 160px 0 160px 0;
+}
+
+.announce .container
+{
+    position: relative;
+}
+
+.announce .container .announce_1
+{
+    position: absolute;
+    top: 0;
+    right: -60px;
+    z-index: 999;
+}
+
+.announce .container .announce_2
+{
+    position: absolute;
+    bottom: -30px;
+    left: -20px;
+    z-index: 999;
+}
+
+.announce .detailBox
+{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 60px;
+    box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+}
+
+.announce .detailBox .listBox
+{
+    margin: 20px 0 40px 0;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eeeeee;
+    overflow: hidden;
+}
+
+.announce .detailBox .listBox h5
+{
+    text-align: center;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+
+.announce .detailBox .listBox .content
+{
+    width: 90%;
+    margin: 0 auto;
+    line-height: 29px;
+}
+
+.announce .detailBox .listBox .content th
+{
+    background-color: #f9cb15;
+    color: #ffffff;
+    text-align: center;
+    width: 33%;
+    padding: 5px 0;
+    border-right: 1px solid #ffffff;
+}
+
+.announce .detailBox .listBox .content tr { text-align: center; background-color: #ffffff; background-color: #e5e5e5; border-bottom: 1px solid #ffffff; }
+
+.announce .detailBox .listBox .content tr:nth-child(even)
+{
+    background-color: #e5e5e5;
+}
+
+.form
+{
+    padding: 160px 0 60px 0;
+    position: relative;
+}
+
+.form .kingcar .img-responsive
+{
+    margin: 0 auto 40px auto;
+}
+
+.form .form_1
+{
+    position: absolute;
+    top: 400px;
+    z-index: 999;
+    right: 200px;
+}
+
+.form .form_1 .animated
+{
+    animation-delay: 2s;
+}
+
+.form .form_2
+{
+    position: absolute;
+    left: 100px;
+    bottom: -100px;
+    z-index: 999;
+}
+
+.form .form_2 .animated
+{
+    animation-delay: 2s;
+}
+
+.form .detailBox
+{
+    background-color: white;
+    border-radius: 10px;
+    padding: 60px;
+    font-size: 16px;
+    box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+}
+
+.form .detailBox .input-row
+{
+    padding-bottom: 20px;
+}
+
+.form .detailBox .input-row label.control
+{
+    color: #666666;
+    font-weight: bolder;
+    text-align: right;
+    display: inline-block;
+    padding-right: 20px;
+    vertical-align: top;
+    padding-top: 5px;
+    width: 10%;
+}
+
+.form .detailBox .input-row .input-field
+{
+    border-radius: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #484848;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #dedede;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 30px;
+    width: 220px;
+}
+
+.form .detailBox .input-row .input-field.add
+{
+    width: 420px;
+    margin: 0 0 0 0;
+}
+
+.form .detailBox .btn
+{
+    background-color: #ffffff;
+    border: none;
+    margin: 20px 0 0;
+    width: 250px;
+}
+
+.form .detailBox .btn:active
+{
+    background-color: #ffffff;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.125);
+}
+
+.form .detailBox .btn:focus
+{
+    background-color: #ffffff;
+}
+
+footer
+{
+    background-color: #c30d23;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.scrollup { width: 50px; height: 50px; opacity: 1; position: fixed; bottom: 60px; right: 20px; display: block; z-index: 1000; background-image: url(../images/common/icon_arrow.png); background-repeat: no-repeat; background-position: left top; line-height: 1000px; overflow: hidden; display: none; }
+
+.sidebarBox
+{
+    display: none;
+    position: absolute;
+    z-index: 7777;
+}
+
+@media (max-width: 1500px)
+{
+    .kvBox
+    {
+        background-image: url(../images/kv_banner_NOTEBOOK.png);
+        height: 700px;
+        position: relative;
+        overflow: hidden;
+        margin: 80px auto 0;
+        background-position: center top;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .kvBox .container
+    {
+        height: 680px;
+        overflow: visible;
+    }
+    .kvBox .container .kv_noodle
+    {
+        position: absolute;
+        left: 0px;
+        width: 45%;
+        bottom: 50px;
+    }
+    .kvBox .container .kv_noodle img
+    {
+        width: 90%;
+        height: auto;
+    }
+    .kvBox .container .kv_noodle2
+    {
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        width: 40%;
+        text-align: right;
+    }
+    .kvBox .container .kv_noodle2 img
+    {
+        width: 90%;
+        height: auto;
+    }
+    .kvBox .container .kv_sloagn
+    {
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        z-index: 999;
+        animation-delay: 0.5s;
+        text-align: right;
+        width: 50%;
+    }
+    .kvBox .container .kv_sloagn img
+    {
+        width: 85%;
+        height: auto;
+    }
+.kvBox .container .kv_sloagn img { -webkit-animation-delay: 1s; animation-delay: 1s; animation-delay: 1.5s; }
+    .kvBox .container .kv_btn
+    {
+        position: absolute;
+        bottom: 70px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .kvBox .container .kv_btn .img-responsive
+    {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .kvBox .container .kv_btn:hover
+    {
+        color: #ffff00;
+    }
+}
+
+@media only screen and (max-width:1399px)
+{
+    .kvBox
+    {
+        height: 630px;
+    }
+}
+
+@media (max-width: 1800px)
+{
+    .form
+    {
+        padding: 160px 0 60px 0;
+        position: relative;
+    }
+    .form .kingcar .img-responsive
+    {
+        margin: 0 auto 40px auto;
+    }
+    .form .form_1 .animated
+    {
+        animation-delay: 2s;
+    }
+    .form .form_1
+    {
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width:1499px)
+{
+    .form .form_1
+    {
+        width: 50%;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width:1199px)
+{
+    .form .form_1
+    {
+        position: absolute;
+        right: -50px;
+        top: 470px;
+    }
+}
+
+@media (max-width: 1800px)
+{
+    .form .form_2
+    {
+        position: absolute;
+        left: -5%;
+        bottom: -100px;
+        z-index: 999;
+        width: 30%;
+    }
+    .form .form_2 .animated
+    {
+        animation-delay: 2s;
+    }
+    .form .detailBox
+    {
+        background-color: white;
+        border-radius: 10px;
+        padding: 60px;
+        font-size: 16px;
+        box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+    }
+    .form .detailBox .input-row
+    {
+        padding-bottom: 20px;
+    }
+    .form .detailBox .input-row label.control
+    {
+        color: #666666;
+        font-weight: bolder;
+        text-align: right;
+        display: inline-block;
+        padding-right: 20px;
+        width: 10%;
+        vertical-align: top;
+        padding-top: 5px;
+    }
+    .form .detailBox .input-row .input-field
+    {
+        border-radius: 30px;
+        font-size: 18px;
+        line-height: 30px;
+        color: #484848;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #dedede;
+        padding-left: 12px;
+        padding-right: 12px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1199px)
+{
+    .form .detailBox
+    {
+        padding-left: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    header .img-responsive
+    {
+        max-width: 80%;
+    }
+    header .navbar
+    {
+        background-color: #f9cb14;
+        box-shadow: 3px 3px 12px 3px rgba(51, 51, 102, 0.5);
+    }
+    header .navbar .nav li a
+    {
+        color: #ffffff !important;
+        font-size: 20px;
+        padding: 55px 15px 25px;
+    }
+    header .navbar .nav li a:hover
+    {
+        background-color: #e2b917;
+        background-image: url(../images/common/icon_noodle.png);
+        background-repeat: no-repeat;
+        background-position: center 20px;
+        background-size: 20px 20px;
+    }
+main { margin: 40px 0 0 0; background-image: url(../images/common/bg_main.png); background-repeat: repeat-y; -moz-background-size: cover; -webkit-background-size: cover; -o-background-size: cover; background-size: cover; background-size: 991px; }
+    main h1
+    {
+        margin: 0 0 40px 0;
+    }
+    main h1 img
+    {
+        margin: 0 auto;
+    }
+    .kvBox
+    {
+        background-image: url(../images/kv_banner_PAD.png);
+        height: 600px;
+        position: relative;
+        overflow: hidden;
+        margin: 100px auto 0;
+        background-position: center -70px;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .kvBox .container
+    {
+        height: 680px;
+        overflow: visible;
+    }
+    .kvBox .container .kv_noodle
+    {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 50%;
+    }
+    .kvBox .container .kv_noodle img
+    {
+        width: 90%;
+        height: auto;
+    }
+    .kvBox .container .kv_noodle2
+    {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 50%;
+        text-align: right;
+    }
+    .kvBox .container .kv_noodle2 img
+    {
+        width: 90%;
+        height: auto;
+    }
+    .kvBox .container .kv_sloagn
+    {
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        z-index: 999;
+        animation-delay: 0.5s;
+        width: 60%;
+        text-align: right;
+    }
+    .kvBox .container .kv_sloagn img
+    {
+        width: 90%;
+        height: auto;
+    }
+.kvBox .container .kv_sloagn img { -webkit-animation-delay: 1s; animation-delay: 1s; animation-delay: 1.5s; }
+    .kvBox .container .kv_btn
+    {
+        position: absolute;
+        bottom: 20px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .kvBox .container .kv_btn .img-responsive
+    {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .kvBox .container .kv_btn:hover
+    {
+        color: #ffff00;
+    }
+    .product
+    {
+        padding: 160px 0 60px 0;
+    }
+    .product .detailBox .listBox
+    {
+        display: table;
+        width: 100%;
+        float: left;
+        margin: 0 0 30px 0;
+    }
+    .product .detailBox .listBox .contentBox
+    {
+        padding: 30px 30px;
+        font-size: 16px;
+        height: 100%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+    }
+    .product .detailBox .listBox .contentBox h5
+    {
+        color: #c30d23;
+        font-size: 24px;
+        font-weight: bolder;
+        text-align: center;
+        margin: 0 0 15px 0;
+        min-height: 60px;
+    }
+    .product .detailBox .listBox .contentBox .title
+    {
+        color: #777777;
+        font-weight: bolder;
+    }
+    .form
+    {
+        padding: 160px 0 60px 0;
+    }
+    .form .detailBox
+    {
+        background-color: white;
+        box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+        border-radius: 10px;
+        padding: 30px 30px;
+        font-size: 16px;
+    }
+    .form .detailBox .input-row
+    {
+        padding-bottom: 10px;
+    }
+    .form .detailBox .input-row.cm_address
+    {
+        margin: -20px 0 0 0;
+    }
+}
+
+@media only screen and (max-width:991px)
+{
+    .form .detailBox .input-row label.control
+    {
+        color: #666666;
+        font-weight: bolder;
+        text-align: left;
+        display: block;
+        vertical-align: top;
+        width: 100%;
+        background-color: #f9f9f9;
+        padding: 5px 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .form .detailBox .input-row label.control.sex
+    {
+        padding: 20px 20px 0 0;
+    }
+    .form .detailBox .input-row .input-field
+    {
+        border-radius: 30px;
+        font-size: 18px;
+        line-height: 30px;
+        color: #484848;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #dedede;
+        padding-left: 12px;
+        padding-right: 12px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:991px)
+{
+    .form .detailBox .input-row .input-field.add
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px)
+{
+    header .img-responsive
+    {
+        max-width: 80%;
+    }
+    header .navbar-header
+    {
+        padding: 0 0 20px;
+    }
+    header .navbar-header .navbar-toggle
+    {
+        border: 0px;
+        margin: 15px 25px 0 0;
+    }
+    header .navbar-header .navbar-toggle .icon-bar
+    {
+        color: #ffffff;
+        background-color: #ffffff;
+        width: 30px;
+        height: 3px;
+    }
+    header .navbar
+    {
+        background-color: #f9cb14;
+        box-shadow: 3px 3px 12px 3px rgba(51, 51, 102, 0.5);
+    }
+    header .navbar .nav li a
+    {
+        color: #ffffff !important;
+        font-size: 20px;
+        padding: 15px 15px 15px 50px;
+    }
+    header .navbar .nav li a:hover
+    {
+        background-color: #e2b917;
+        background-image: url(../images/common/icon_noodle.png);
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+        background-size: 20px 20px;
+    }
+    header .navbar-collapse
+    {
+        border-color: #ffffff !important;
+    }
+main { margin: 40px 0 0 0; background-image: url(../images/common/bg_main.png); background-repeat: repeat-y; -moz-background-size: cover; -webkit-background-size: cover; -o-background-size: cover; background-size: cover; background-size: 767px; }
+    main h1
+    {
+        margin: 0 auto 40px;
+        width: 70%;
+    }
+    main h1 img
+    {
+        margin: 0 auto;
+    }
+    .kvBox
+    {
+        background-image: url(../images/kv_banner_480.png);
+        height: 730px;
+        position: relative;
+        overflow: hidden;
+        margin: 69px auto 0;
+        background-position: center top;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .kvBox .container
+    {
+        height: 730px;
+        overflow: visible;
+    }
+    .kvBox .container .kv_noodle
+    {
+        position: absolute;
+        bottom: 70px;
+        left: 0px;
+    }
+    .kvBox .container .kv_noodle2
+    {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+    }
+    .kvBox .container .kv_noodle2 img
+    {
+        width: 100%;
+    }
+    .kvBox .container .kv_sloagn
+    {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        z-index: 999;
+        width: 60%;
+        animation-delay: 0.5s;
+    }
+.kvBox .container .kv_sloagn img { -webkit-animation-delay: 1s; animation-delay: 1s; animation-delay: 1.5s; width: 100%; height: auto; }
+    .kvBox .container .kv_sloagn_mobile
+    {
+        position: absolute;
+        bottom: 100px;
+        right: 0;
+        z-index: 222;
+        text-align: center;
+    }
+.kvBox .container .kv_sloagn_mobile img { -webkit-animation-delay: 1s; animation-delay: 1s; animation-delay: 1.5s; max-width: 90%; height: auto; margin: 0 auto; }
+    .kvBox .container .kv_btn
+    {
+        position: absolute;
+        bottom: 30px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+        z-index: 999;
+    }
+    .kvBox .container .kv_btn .img-responsive
+    {
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    .kvBox .container .kv_btn:hover
+    {
+        color: #ffff00;
+    }
+    .method
+    {
+        padding: 100px 0 60px;
+    }
+    .method .detailBox
+    {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 45px 15px 45px 15px;
+        height: 460px;
+        overflow: hidden;
+    }
+    .method .detailBox .scrollbars
+    {
+        width: 100%;
+        height: 380px;
+    }
+    .method .detailBox .scrollbars ul
+    {
+        list-style-type: none;
+        padding-left: 20px;
+    }
+    .method .detailBox .scrollbars p
+    {
+        margin: 10px 0 10px 0;
+    }
+    .announce
+    {
+        padding: 100px 0 60px;
+    }
+    .announce .detailBox
+    {
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px 20px;
+        box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+    }
+    .announce .detailBox .listBox
+    {
+        margin: 20px 0 40px 0;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #eeeeee;
+    }
+    .announce .detailBox .listBox.last
+    {
+        padding-bottom: 0px !important;
+        border-bottom: 0px solid #eeeeee !important;
+    }
+    .announce .detailBox .listBox h5
+    {
+        text-align: center;
+        color: #000000;
+        font-weight: bolder;
+        font-size: 24px;
+        margin: 0 0 20px 0;
+    }
+    .announce .detailBox .listBox .content
+    {
+        width: 100%;
+        margin: 0 auto;
+        line-height: 29px;
+    }
+    .announce .detailBox .listBox .content th
+    {
+        background-color: #f9cb15;
+        color: #ffffff;
+        text-align: center;
+        width: 33%;
+        padding: 5px 0;
+    }
+.announce .detailBox .listBox .content tr { text-align: center; background-color: #ffffff; background-color: #e5e5e5; border-bottom: 1px solid #ffffff; }
+    .announce .detailBox .listBox .content tr:nth-child(even)
+    {
+        background-color: #e5e5e5;
+    }
+    .announce .download
+    {
+        position: absolute;
+        top: 90px;
+        right: 20px;
+        background-color: #ffff00;
+        color: #0e82c7;
+        text-align: center;
+        width: 140px;
+        height: 35px;
+        line-height: 35px;
+        font-weight: bolder;
+    }
+    .announce .download:hover
+    {
+        color: #000000;
+    }
+    .product
+    {
+        padding: 100px 0 60px;
+    }
+    .product .detailBox .listBox
+    {
+        display: table;
+        width: 100%;
+        float: left;
+        margin: 0 0 30px 0;
+    }
+    .product .detailBox .listBox .contentBox
+    {
+        padding: 30px 30px;
+        font-size: 16px;
+        height: 100%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+    }
+    .product .detailBox .listBox .contentBox h5
+    {
+        color: #c30d23;
+        font-size: 24px;
+        font-weight: bolder;
+        text-align: center;
+        margin: 0 0 15px 0;
+        min-height: 60px;
+    }
+    .product .detailBox .listBox .contentBox .title
+    {
+        color: #777777;
+        font-weight: bolder;
+    }
+    .product .stepBox
+    {
+        display: table;
+        width: 100% !important;
+        float: none;
+        margin: 0 0 30px 0;
+    }
+    .product .stepBox img
+    {
+        margin: 0 auto;
+        display: block;
+    }
+    .product .stepBox .contentBox
+    {
+        padding: 30px 30px;
+        font-size: 16px;
+        height: 100%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+    }
+    .product .stepBox .contentBox h5
+    {
+        color: #c30d23;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .product .stepBox .contentBox .title
+    {
+        color: #777777;
+        font-weight: bolder;
+    }
+    .form
+    {
+        padding: 100px 0 60px;
+    }
+    .form .detailBox
+    {
+        background-color: white;
+        box-shadow: 4px 4px 12px -2px rgba(51, 51, 102, 0.5);
+        border-radius: 10px;
+        padding: 30px;
+        font-size: 16px;
+    }
+    .form .detailBox .input-row
+    {
+        padding-bottom: 10px;
+    }
+    .form .detailBox .input-row.cm_address
+    {
+        margin: -20px 0 0 0;
+    }
+    .form .detailBox .input-row label.control.sex
+    {
+        padding: 20px 20px 0 0;
+    }
+    .form .detailBox .input-row label.control.xs
+    {
+        display: block;
+    }
+    .form .detailBox .input-row .input-field
+    {
+        border-radius: 30px;
+        font-size: 18px;
+        line-height: 30px;
+        color: #484848;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #dedede;
+        padding-left: 12px;
+        padding-right: 12px;
+        height: 30px;
+    }
+}
+
+.form .detailBox .input-row .cityBox
+{
+    display: block;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px)
+{
+    .form .detailBox .btn
+    {
+        background-color: #ffffff;
+        border: none;
+        text-align: center;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 766px)
+{
+    .kvBox
+    {
+        background-image: url(../images/kv_banner_480.png);
+        height: 730px;
+        position: relative;
+        overflow: hidden;
+        background-position: center top;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+    .kvBox .container
+    {
+        height: 730px;
+        overflow: visible;
+    }
+    .kvBox .container .kv_noodle
+    {
+        position: absolute;
+        bottom: 70px;
+        left: 0px;
+    }
+    .kvBox .container .kv_noodle2
+    {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+    }
+    .kvBox .container .kv_noodle2 img
+    {
+        width: 100%;
+    }
+    .kvBox .container .kv_sloagn
+    {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        z-index: 999;
+        width: 60%;
+        animation-delay: 0.5s;
+    }
+.kvBox .container .kv_sloagn img { -webkit-animation-delay: 1s; animation-delay: 1s; animation-delay: 1.5s; width: 100%; height: auto; }
+    .kvBox .container .kv_sloagn_mobile
+    {
+        position: absolute;
+        bottom: 100px;
+        right: 0;
+        z-index: 222;
+        text-align: center;
+    }
+.kvBox .container .kv_sloagn_mobile img { -webkit-animation-delay: 1s; animation-delay: 1s; animation-delay: 1.5s; max-width: 60%; height: auto; margin: 0 auto; }
+}
+
+@media only screen and (max-width:580px)
+{
+    .kvBox .container .kv_sloagn_mobile img
+    {
+        width: 55%;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 766px)
+{
+    .kvBox .container .kv_btn
+    {
+        position: absolute;
+        bottom: 30px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+        z-index: 999;
+    }
+    .kvBox .container .kv_btn .img-responsive
+    {
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    .kvBox .container .kv_btn:hover
+    {
+        color: #ffff00;
+    }
+}
+
+@media only screen and (max-width:580px)
+{
+    .kvBox .container .kv_btn
+    {
+        bottom: 40px;
+    }
+}
+
+@media (min-width: 343px) and (max-width: 580px)
+{
+    .kvBox
+    {
+        background-image: url(../images/kv_banner_480.png);
+        position: relative;
+        overflow: hidden;
+        margin: 50px auto 0;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width:339px)
+{
+    header .navbar-brand
+    {
+        width: 60%;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 340px)
+{
+    header .navbar-brand .img-responsive
+    {
+        max-width: 100%;
+    }
+    header .navbar-header
+    {
+        padding: 0 0 20px 0;
+    }
+    header .navbar-header .navbar-toggle
+    {
+        border: 0px;
+        margin: 25px 25px 0 0;
+    }
+    header .navbar-header .navbar-toggle .icon-bar
+    {
+        color: #ffffff;
+        background-color: #ffffff;
+        width: 30px;
+        height: 3px;
+    }
+    header .navbar
+    {
+        background-color: #f9cb14;
+        box-shadow: 3px 3px 12px 3px rgba(51, 51, 102, 0.5);
+    }
+    header .navbar .nav li a
+    {
+        color: #ffffff !important;
+        font-size: 20px;
+        padding: 15px 15px 15px 50px;
+    }
+    header .navbar .nav li a:hover
+    {
+        background-color: #e2b917;
+        background-image: url(../images/common/icon_noodle.png);
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+    }
+    header .navbar-collapse
+    {
+        border-color: #ffffff !important;
+    }
+    .kvBox
+    {
+        background-image: url(../images/kv_banner_320.png) !important;
+        position: relative;
+        overflow: hidden;
+        background-position: right top;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: 80px auto 0;
+        height: 530px;
+    }
+    .kvBox .container
+    {
+        height: 680px;
+        overflow: visible;
+    }
+    .kvBox .container .kv_noodle
+    {
+        position: absolute;
+        bottom: 70px;
+        left: 0px;
+    }
+    .kvBox .container .kv_noodle2
+    {
+        position: absolute;
+        bottom: 30px;
+        right: 0px;
+    }
+    .kvBox .container .kv_sloagn
+    {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        z-index: 999;
+        width: 60%;
+        animation-delay: 0.5s;
+    }
+.kvBox .container .kv_sloagn img { -webkit-animation-delay: 1s; animation-delay: 1s; animation-delay: 1.5s; width: 100%; height: auto; }
+    .kvBox .container .kv_btn
+    {
+        position: absolute;
+        bottom: 30px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .kvBox .container .kv_btn .img-responsive
+    {
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    .kvBox .container .kv_btn:hover
+    {
+        color: #ffff00;
+    }
+}
+
+@media (max-width: 320px)
+{
+    header .navbar-brand .img-responsive
+    {
+        max-width: 100%;
+    }
+    header .navbar-header
+    {
+        padding: 0 0 20px 0;
+    }
+    header .navbar-header .navbar-toggle
+    {
+        border: 0px;
+        margin: 20px 20px 0 0;
+    }
+    header .navbar-header .navbar-toggle .icon-bar
+    {
+        color: #ffffff;
+        background-color: #ffffff;
+        width: 30px;
+        height: 3px;
+    }
+    header .navbar
+    {
+        background-color: #f9cb14;
+        box-shadow: 3px 3px 12px 3px rgba(51, 51, 102, 0.5);
+    }
+    header .navbar .nav li a
+    {
+        color: #ffffff !important;
+        font-size: 20px;
+        padding: 15px 15px 15px 50px;
+    }
+    header .navbar .nav li a:hover
+    {
+        background-color: #e2b917;
+        background-image: url(../images/common/icon_noodle.png);
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+    }
+    header .navbar-collapse
+    {
+        border-color: #ffffff !important;
+    }
+    .kvBox
+    {
+        background-image: url(../images/kv_banner_320.png) !important;
+        position: relative;
+        overflow: hidden;
+        margin: 60px auto 0 auto;
+        background-position: center top;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 500px;
+    }
+    .kvBox .container
+    {
+        height: 680px;
+        overflow: visible;
+    }
+    .kvBox .container .kv_noodle
+    {
+        position: absolute;
+        bottom: 70px;
+        left: 0px;
+    }
+    .kvBox .container .kv_noodle2
+    {
+        position: absolute;
+        bottom: 30px;
+        right: 0px;
+    }
+    .kvBox .container .kv_sloagn
+    {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        z-index: 999;
+        width: 60%;
+        animation-delay: 0.5s;
+    }
+.kvBox .container .kv_sloagn img { -webkit-animation-delay: 1s; animation-delay: 1s; animation-delay: 1.5s; width: 100%; height: auto; }
+    .kvBox .container .kv_btn
+    {
+        position: absolute;
+        bottom: 20px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .kvBox .container .kv_btn .img-responsive
+    {
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    .kvBox .container .kv_btn:hover
+    {
+        color: #ffff00;
+    }
+}
+
+/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width:479px)
+{
+    .kvBox .container .kv_sloagn_mobile
+    {
+        right: 0;
+        bottom: 100px;
+    }
+}
+
+@media only screen and (max-width:342px)
+{
+    .kvBox .container .kv_sloagn_mobile
+    {
+        bottom: 70px;
+    }
+}
+
+@media only screen and (max-width:991px)
+{
+    .product .detailBox .listBox img
+    {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width:479px)
+{
+    .form .detailBox
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .form
+    {
+        padding-top: 80px;
+    }
+    .method
+    {
+        padding-top: 80px;
+    }
+    .product
+    {
+        padding-top: 80px;
+    }
+    .announce
+    {
+        padding-top: 80px;
+    }
+    .kvBox .container .kv_sloagn_mobile img
+    {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:342px)
+{
+    .kvBox .container .kv_sloagn_mobile img
+    {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:580px)
+{
+    .input-field
+    {
+        width: 100% !important;
+    }
+}
+

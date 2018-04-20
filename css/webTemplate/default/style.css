@@ -1,0 +1,229 @@
+
+
+label.error
+{
+    display: none !important;
+}
+
+input.error,
+textarea.error,
+select.error
+{
+    border: 1px solid #FF0000 !important;
+}
+
+#verifyImgCode
+{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.send-field
+{
+    padding-left: 100px;
+    text-align: left;
+}
+
+.mainfoot .infoBox a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mainfoot .infoBox a:hover
+{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:1199px)
+{
+    .kv_btn img
+    {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width:765px)
+{
+    .kv_btn img
+    {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width:479px)
+{
+    .kv_btn img
+    {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:991px)
+{
+    .send-field
+    {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+.control
+{
+    display: inline-block;
+}
+
+.form-right
+{
+    display: inline-block;
+    width: 50%;
+}
+
+.city-code
+{
+    width: 80px !important;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 14px !important;
+    color: #4c4c4c;
+}
+
+.verifyinput
+{
+    text-align: center;
+    width: 100px !important;
+    display: inline-block;
+}
+
+.reciept-2
+{
+    margin-left: 10px;
+    width: 325px !important;
+}
+
+@media only screen and (max-width:991px)
+{
+    .reciept-2
+    {
+        width: 420px !important;
+    }
+    .form-right
+    {
+        display: block;
+        padding-top: 10px;
+        width: 100%;
+    }
+}
+
+.reciept-1
+{
+    width: 60px !important;
+    display: inline-block;
+    text-align: center;
+}
+
+@media only screen and (max-width:767px)
+{
+    .reciept-2
+    {
+    }
+}
+
+@media only screen and (max-width:580px)
+{
+    .reciept-2
+    {
+        width: 300px !important;
+    }
+}
+
+@media only screen and (max-width:479px)
+{
+    .reciept-2
+    {
+        width: 170px !important;
+    }
+    .city-code
+    {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+}
+
+.pointer
+{
+    cursor: pointer;
+}
+
+.step-image
+{
+    width: 520px;
+}
+
+.king-car-img
+{
+    display: block;
+    width: 50%;
+}
+
+@media only screen and (max-width:991px)
+{
+    .king-car-img
+    {
+        padding-top: 70px;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media only screen and (max-width:479px)
+{
+    .king-car-img
+    {
+        width: 70%;
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width:339px)
+{
+    .reciept-2
+    {
+        width: 100% !important;
+        margin-left: 0;
+    }
+    .reciept-1
+    {
+        margin-bottom: 10px;
+        width: 100px !important;
+    }
+}
+
+.form .detailBox .input-row .input-field.email
+{
+    width: 420px;
+}
+
+@media only screen and (max-width:991px)
+{
+    .form .detailBox .input-row .input-field.email
+    {
+        width: 100%;
+    }
+}
+
+.select-style-1
+{
+    line-height: 30px;
+    height: 30px;
+        cursor:pointer;
+}
+.ps {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.editor-area h2 {
+    font-weight: bold;
+    font-size: 36px !important;
+    margin-bottom: 10px;
+}

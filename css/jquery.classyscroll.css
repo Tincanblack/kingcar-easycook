@@ -1,0 +1,85 @@
+
+
+/*!
+ * jQuery ClassyScroll
+ * http://www.class.pm/projects/jquery/classyscroll
+ *
+ * Copyright 2011 - 2013, Class.PM www.class.pm
+ * Written by Marius Stanciu - Sergiu <marius@picozu.net>
+ * Licensed under the GPL Version 3 license.
+ * Version 1.1.0
+ *
+*/
+
+.scrollbar-path-vertical,
+.scrollbar-path-horizontal
+{
+    position: absolute;
+    background-image: url(../images/common/scrollbar-line.png);
+    background-repeat: repeat-y;
+    z-index: 100;
+    width: 16px;
+}
+
+.scrollbar-path-horizontal
+{
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+}
+
+.scrollbar-path-vertical
+{
+    right: 5px;
+    top: 0px!important;
+    height: 100%;
+    width: 16px;
+}
+
+.scrollbar-path-vertical
+{
+}
+
+.scrollbar-path-horizontal
+{
+}
+
+.scrollbar-handle
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: url(../images/common/scrollbar-handle.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    cursor: pointer;
+}
+
+.scrollbar-path-vertical .scrollbar-handle
+{
+    height: 60px!important;
+    width: 100%;
+}
+
+.scrollbar-path-horizontal .scrollbar-handle
+{
+    width: 20%;
+    height: 100%;
+}
+
+.scrollbar-path-vertical,
+.scrollbar-path-horizontal,
+.scrollbar-handle
+{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 390px!important;
+}
+
+.scrollbar-content
+{
+    padding: 0 40px 0 0;
+}
+
